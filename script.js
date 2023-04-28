@@ -28,16 +28,11 @@ switch (index) {
 		additionalImgSrc = "images/march2.png";
 		break;
 	case 4:
-		imgSrc = "images/gepard.png";
-		text = "Gepard";
-		additionalImgSrc = "images/gepard2.png";
-		break;
-	case 5:
 		imgSrc = "images/bronya.png";
 		text = "Bronya";
 		additionalImgSrc = "images/bronya2.png";
 		break;
-	case 6:
+	case 5:
 		imgSrc = "images/jingyuan.png";
 		text = "Jing Yuan";
 		additionalImgSrc = "images/jingyuan2.png";
