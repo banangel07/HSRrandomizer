@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Picker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<video id="bg-video" autoplay muted loop>
+		<source src="images/78271eaa9007095e6aaa48fa71e3b5c0_2624416836527699801.mp4" type="video/mp4">
+	</video>
+
+	<header>
+		<img src="images/Honkai-Star-Rail.png" alt="Logo">
+	</header>
+
+	<main>
+		<h1>Honkai: Star Rail Imitation Game</h1>
+
+		<p>Click the button below to pick your character:</p>
+
+		<ul id="list">
+			<li><img src="images/fire.png" style="margin-right: 10px; width: auto; height: 20px">Himeko</li>
+			<li><img src="images/imaginary.png" style="margin-right: 10px; width: auto; height: 20px">Welt</li>
+			<li><img src="images/wind.png" style="margin-right: 10px; width: auto; height: 20px">Dan Heng</li>
+			<li><img src="images/ice.png" style="margin-right: 10px; width: auto; height: 20px">March 7th</li>
+			<li><img src="images/ice.png" style="margin-right: 10px; width: auto; height: 20px">Gepard</li>
+			<li><img src="images/wind.png" style="margin-right: 10px; width: auto; height: 20px">Bronya</li>
+			<li><img src="images/lightning.png" style="margin-right: 10px; width: auto; height: 20px">Jing Yuan</li>
+		</ul>
+
+		<button onclick="pickRandom()">Pick your character!</button>
+
+		<div id="popup-container">
+			<div id="result"></div>
+			<button id="close-button" onclick="closePopup()">Close</button>
+		</div>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
