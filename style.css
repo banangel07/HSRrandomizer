@@ -25,7 +25,7 @@ header {
 }
 
 header img {
-    width: 10%;
+    width: 5%;
 }
 
 header .logo {
@@ -176,11 +176,11 @@ footer p {
     }
 
     header img {
-        width: 10%;
+        width: 5%;
     }
 
     header .logo {
-        top: 30%;
+        top: 10%;
     }
 
     /* Main content styles */
