@@ -25,7 +25,7 @@ header {
 }
 
 header img {
-    width: 10%;
+    width: 1;
 }
 
 header .logo {
@@ -223,4 +223,11 @@ footer p {
     footer {
         padding: 10px;
     }
+}
+
+/* Make main content scrollable on mobile landscape devices */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+main {
+overflow-y: scroll;
+}
 }
