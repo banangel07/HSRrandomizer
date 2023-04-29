@@ -25,8 +25,7 @@ header {
 }
 
 header img {
-    max-width: 100%;
-    height: auto;
+    width: 10%;
 }
 
 header .logo {
@@ -77,6 +76,7 @@ li {
     transition: background-color 0.2s ease-in-out;
 }
 
+
 li:hover {
     background-color: #d5ba8d;
 }
@@ -118,7 +118,7 @@ li:hover {
 }
 
 #result img {
-    max-width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -139,8 +139,6 @@ li:hover {
     background-color: #999;
 }
 
-
-
 button {
     display: block;
     margin: 0 auto;
@@ -158,3 +156,71 @@ button:hover {
     background-color: #4c73a1;
 }
 
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    /* Header styles */
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        height: 100px;
+    }
+
+    header .logo {
+        top: 30%;
+    }
+
+    /* Main content styles */
+    main {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+        padding: 8px 16px;
+        margin-bottom: 5px;
+    }
+
+    /* Popup styles */
+    #popup {
+        max-width: 100%;
+    }
+
+    #popup h2 {
+        font-size: 24px;
+    }
+
+    #result img {
+        width: 80%;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    /* Footer styles */
+    footer {
+        padding: 10px;
+    }
+}
