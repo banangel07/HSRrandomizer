@@ -144,8 +144,8 @@ button {
     margin: 0 auto;
     background-color: #d5ba8d;
     color: #000;
-    font-size: 24px;
-    padding: 10px 20px;
+    font-size: 28px; /* increase font size */
+    padding: 15px 30px; /* increase padding to make button bigger */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -154,6 +154,7 @@ button {
 
 button:hover {
     background-color: #4c73a1;
+}
 }
 
 /* Footer styles */
